@@ -1,0 +1,306 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.258; Version 2009; 64bit' Language: 'en' Physical Memory: 16284 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Tyler/Code/cs240-term-project/GlizzyIO
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64460
+Successfully changed project path to: C:/Users/Tyler/Code/cs240-term-project/GlizzyIO
+C:/Users/Tyler/Code/cs240-term-project/GlizzyIO
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Tyler/Code/cs240-term-project/GlizzyIO/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 with Max-Q Design (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001878 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 31.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1117ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (401ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (139ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (145ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005553 seconds.
+Assembly with name 'SimpleWebTransport' already exists (Assets/SimpleWebTransport-0.8.2/SimpleWebTransport-0.8.2/source/SimpleWebTransport.asmdef)
+Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef)
+Assembly with name 'SimpleWebTransport' already exists (Assets/SimpleWebTransport-0.8.2/SimpleWebTransport-0.8.2/source/SimpleWebTransport.asmdef)
+Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef)
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'SimpleWebTransport' already exists (Assets/SimpleWebTransport-0.8.2/SimpleWebTransport-0.8.2/source/SimpleWebTransport.asmdef)
+Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (990ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.0 MB.
+System memory in use after: 78.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2264.
+Total: 3.436500 ms (FindLiveObjects: 0.164100 ms CreateObjectMapping: 0.052100 ms MarkObjects: 3.160600 ms  DeleteObjects: 0.058900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/SimpleWebTransport-0.8.2/SimpleWebTransport-0.8.2
+  artifactKey: Guid(3f31021efc63d364fb86ebc6825d56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleWebTransport-0.8.2/SimpleWebTransport-0.8.2 using Guid(3f31021efc63d364fb86ebc6825d56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77801a43477062077f9f8e119e6e3ca3') in 0.009677 seconds 
+  Import took 0.012097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.448479 seconds.
+  path: Assets/SimpleWebTransport-0.8.2/DebugScripts/SimpleWebTransport.DebugScripts.asmdef
+  artifactKey: Guid(e4f71182715ba004287a5d47b92cf733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleWebTransport-0.8.2/DebugScripts/SimpleWebTransport.DebugScripts.asmdef using Guid(e4f71182715ba004287a5d47b92cf733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dceb93ac6af104fec51f724481f6c618') in 0.022167 seconds 
+  Import took 0.025416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.687588 seconds.
+  path: Assets/SimpleWebTransport-0.8.2/source/SimpleWebTransport.asmdef
+  artifactKey: Guid(8ccc5d62b76858440a2d9254603fa06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleWebTransport-0.8.2/source/SimpleWebTransport.asmdef using Guid(8ccc5d62b76858440a2d9254603fa06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b629aa561d3d782994f9b46c8466595') in 0.012454 seconds 
+  Import took 0.015870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.311645 seconds.
+  path: Assets/SimpleWebTransport-0.8.2/source/SimpleWebTransport.cs
+  artifactKey: Guid(c00ee50f09f17044fac665eabbbcc102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleWebTransport-0.8.2/source/SimpleWebTransport.cs using Guid(c00ee50f09f17044fac665eabbbcc102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35650c051cdb9859f9156ab0a5ebe1c7') in 0.010241 seconds 
+  Import took 0.013278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.904038 seconds.
+  path: Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef
+  artifactKey: Guid(3b5390adca4e2bb4791cb930316d6f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef using Guid(3b5390adca4e2bb4791cb930316d6f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22ca55824e9a34d73d1ab656f2a8b14') in 0.004110 seconds 
+  Import took 0.007223 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005258 seconds.
+Assembly with name 'SimpleWebTransport' already exists (Assets/SimpleWebTransport-0.8.2/SimpleWebTransport-0.8.2/source/SimpleWebTransport.asmdef)
+Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef)
+Assembly with name 'SimpleWebTransport' already exists (Assets/SimpleWebTransport-0.8.2/SimpleWebTransport-0.8.2/source/SimpleWebTransport.asmdef)
+Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef)
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'SimpleWebTransport' already exists (Assets/SimpleWebTransport-0.8.2/SimpleWebTransport-0.8.2/source/SimpleWebTransport.asmdef)
+Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Domain Reload Profiling:
+	ReloadAssembly (975ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (789ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.9 MB.
+System memory in use after: 77.0 MB.
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 2225.
+Total: 3.382900 ms (FindLiveObjects: 0.157000 ms CreateObjectMapping: 0.047000 ms MarkObjects: 3.146300 ms  DeleteObjects: 0.031500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005170 seconds.
+Assembly with name 'SimpleWebTransport' already exists (Assets/SimpleWebTransport-0.8.2/SimpleWebTransport-0.8.2/source/SimpleWebTransport.asmdef)
+Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef)
+Assembly with name 'SimpleWebTransport' already exists (Assets/SimpleWebTransport-0.8.2/SimpleWebTransport-0.8.2/source/SimpleWebTransport.asmdef)
+Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef)
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'SimpleWebTransport' already exists (Assets/SimpleWebTransport-0.8.2/SimpleWebTransport-0.8.2/source/SimpleWebTransport.asmdef)
+Assembly with name 'SimpleWebTransport' already exists (Assets/Mirror/Runtime/Transport/SimpleWebTransport/SimpleWebTransport.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Domain Reload Profiling:
+	ReloadAssembly (927ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (774ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.8 MB.
+System memory in use after: 76.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2227.
+Total: 3.100900 ms (FindLiveObjects: 0.160100 ms CreateObjectMapping: 0.054800 ms MarkObjects: 2.869600 ms  DeleteObjects: 0.015600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

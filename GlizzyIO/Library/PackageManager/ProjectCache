@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637727045029557226
+      ticks: 637729043574761195
     m_Hash: 1482879244
   m_LockFileStatus:
     m_FilePath: C:/Users/Tyler/Code/cs240-term-project/GlizzyIO/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637727045029562688
+      ticks: 637729043574766231
     m_Hash: 3734136228
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
