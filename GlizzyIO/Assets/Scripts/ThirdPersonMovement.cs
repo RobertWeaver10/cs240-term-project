@@ -10,6 +10,8 @@ public class ThirdPersonMovement : NetworkBehaviour {
     public float speed = 9f;
 
     public float turnSmoothTime = 0.1f;
+    
+    public Vector3 cameraOffSet = new Vector3(0, 20, -50);
     float turnSmoothVelocity;
 
     // Update is called once per frame
@@ -24,6 +26,8 @@ public class ThirdPersonMovement : NetworkBehaviour {
 
             if(moveDir.magnitude >= 0.1f) {
                 controller.Move(moveDir.normalized * speed * Time.deltaTime);
+                Camera.main.transform.localPosition = transform.position + cameraOffSet;
+                //Camera.main.transform.localPosition = new Vector3(transform.position.x + 0, transform.position.y + 20, transform.position.z - 50); 
             }
 
             // Convert the mouse position ot a point in 3D-space
