@@ -5,19 +5,33 @@ using UnityEngine;
 
 public class ThirdPersonMovement : NetworkBehaviour {
 
+    // Components for displaying player names
+    public TextMesh playerNameText;
+    public GameObject floatingInfo;
+
+    [SyncVar(hook = nameof(OnNameChanged))]
+    public string playerName;
+
+    // Used to control the movement of the player
     public CharacterController controller;
-
+    // Player movement speed    
     public float speed = 9f;
-
+    // This may be obsolete, but slows the rotation to look more realistic
     public float turnSmoothTime = 0.1f;
-    
+    // Camera position offset from the local player 
     public Vector3 cameraOffSet = new Vector3(0, 20, -50);
+    
+    // Used by the SmoothDampAngle function for smmooth player rotations.
     float turnSmoothVelocity;
 
-    // Update is called once per frame
+    void OnNameChanged(string _Old, string _New) {
+        playerNameText.text = playerName;
+    }
 
     void HandleMovement() {
+        
 
+        // Local Players run this code
         if (isLocalPlayer) {
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
@@ -42,11 +56,29 @@ public class ThirdPersonMovement : NetworkBehaviour {
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle+90, ref turnSmoothVelocity, turnSmoothTime);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
         }
+
+        // Every non local player runs this code
+        if (!isLocalPlayer){
+            floatingInfo.transform.LookAt(Camera.main.transform);
+        }
+
+        
+        floatingInfo.transform.LookAt(Camera.main.transform);
     }
 
     public override void OnStartLocalPlayer() {
         //Camera.main.transform.SetParent(transform);
         Camera.main.transform.localPosition = new Vector3(0, 20, -50);
+
+        string name = "Player" + Random.Range(100, 999);
+        CmdSetupPlayer(name);
+    }
+
+    [Command]
+    public void CmdSetupPlayer(string _name) {
+        // player info sent to server, then server updates syncvars chich handles it on all 
+        // clients
+        playerName = _name;
     }
     void Update() {
         HandleMovement();
