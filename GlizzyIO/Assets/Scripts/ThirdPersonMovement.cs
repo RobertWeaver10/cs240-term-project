@@ -100,7 +100,7 @@ public class ThirdPersonMovement : NetworkBehaviour {
     void RpcFireWeapon(){
         GameObject bullet = Instantiate(kbullet, firePoint.transform.position, transform.rotation);
         bullet.transform.Rotate(new Vector3(0, -90, 0));
-        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 100;
+        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 50;
         Destroy(bullet, 5);
     }
 }
