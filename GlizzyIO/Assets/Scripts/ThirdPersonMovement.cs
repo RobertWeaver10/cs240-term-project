@@ -12,6 +12,9 @@ public class ThirdPersonMovement : NetworkBehaviour {
     [SyncVar(hook = nameof(OnNameChanged))]
     public string playerName;
 
+    public GameObject kbullet;
+    public GameObject firePoint;
+
     // Used to control the movement of the player
     public CharacterController controller;
     // Player movement speed    
@@ -82,5 +85,22 @@ public class ThirdPersonMovement : NetworkBehaviour {
     }
     void Update() {
         HandleMovement();
+
+        if (Input.GetMouseButtonDown(0)){
+            CmdShootRay();
+        }
+    }
+
+    [Command]
+    void CmdShootRay(){
+        RpcFireWeapon();
+    }
+
+    [ClientRpc]
+    void RpcFireWeapon(){
+        GameObject bullet = Instantiate(kbullet, firePoint.transform.position, transform.rotation);
+        bullet.transform.Rotate(new Vector3(0, -90, 0));
+        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 100;
+        Destroy(bullet, 5);
     }
 }
