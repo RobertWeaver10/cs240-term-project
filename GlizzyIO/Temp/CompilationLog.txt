@@ -1,4 +1,0 @@
-# Starting compiling Assembly-CSharp.dll
-/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-770a06f8244d947a7a0a55a7bedb63e3
-# Starting IL post processing on Assembly-CSharp.dll
-/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/robert/Desktop/glizzyRoyale/cs240-term-project/GlizzyIO/Temp/UnityTempFile-d334a442ce5d8406a9c087680fc8197f"
