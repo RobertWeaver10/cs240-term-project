@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class playerCollision : MonoBehaviour
 {
+    /*
     Player playerscript;
 
     public void Start()
@@ -18,4 +19,5 @@ public class playerCollision : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    */
 }
