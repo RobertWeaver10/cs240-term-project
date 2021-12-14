@@ -64,8 +64,10 @@ namespace Player {
             if (isLocalPlayer) {
                 if(health <= 0) {
                     // The player has died!
-                    Application.LoadLevel(2);
-                    Destroy(transform.gameObject);
+                    // Psuedo respawn
+                    health = 100;
+                    updateHealthBar();
+                    transform.Translate(new Vector3(-5, 0, 5));
                 }
             }
 
