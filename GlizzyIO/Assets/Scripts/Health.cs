@@ -16,9 +16,12 @@ namespace Player {
         health by the specified amount. Calls updateHealthBar() to reflect the change.
         */
         public void RpcHeal(float amount) {
-            health += amount;
-            updateHealthBar();
-            Debug.Log("Healed");
+            if (health < 100)
+            {
+                health += amount;
+                updateHealthBar();
+                Debug.Log("Healed");
+            }
         }
 
         /*
@@ -73,8 +76,17 @@ namespace Player {
 
         void OnCollisionEnter (Collision collisionInfo)
         {
-            Debug.Log("I was hit");
-            RpcDamage(10);
+            if (collisionInfo.collider.tag == "Ketchup")
+            {
+                RpcDamage(10);
+                Debug.Log("I was shot with ketchup");
+            }
+            
+            if (collisionInfo.collider.tag == "Bread")
+            {
+                RpcHeal(10);
+                Debug.Log("I stacked more bread");
+            }
         }
 
         void Start() {
