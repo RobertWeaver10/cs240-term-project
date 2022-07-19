@@ -1,5 +1,7 @@
-# cs240-term-project
+# Glizzy Royale (cs240-term-project)
 cs 240 final term project Tyler Weir, Robert Weaver, Jacob Ota
+
+![](media/gliz.gif)
 
 
 PRODUCT VISION
